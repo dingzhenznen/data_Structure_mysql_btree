@@ -26,7 +26,9 @@ int main( )
    strcpy( Book2.title, "Telecom Billing");
    strcpy( Book2.author, "Zara Ali");
    strcpy( Book2.subject, "Telecom Billing Tutorial");
-   Book2.book_id = 6495700;
+   int a;
+   a = 6495
+   Book2.book_id = a;
  
    /* 通过传 Book1 的地址来输出 Book1 信息 */
    printBook( &Book1 );
